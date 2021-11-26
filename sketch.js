@@ -20,7 +20,7 @@ function setup(){
   // Moving background
   sea=createSprite(400,200);
   sea.addImage(seaImg);
-  sea.velocityX = -5;
+  sea.x = sea.width/8;
   sea.scale=0.3;
 
   
