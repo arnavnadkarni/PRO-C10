@@ -20,7 +20,7 @@ function setup(){
   // Moving background
   sea=createSprite(400,200);
   sea.addImage(seaImg);
-  sea.x = sea.width/8;
+  sea.x = sea.width/2;
   sea.scale=0.3;
 
   
@@ -38,7 +38,7 @@ function draw() {
   if(sea.x < 0){
    // sea.x = 0;
     //sea.x = sea.width;
-    sea.x = sea.width/8;
+    sea.x = sea.width/2;
     //sea.y = height;
   }
 
